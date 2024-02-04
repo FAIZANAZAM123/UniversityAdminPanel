@@ -9,6 +9,9 @@ const courseSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  categoryImage:{
+    type: String
+  },
   aboutCourse: {
     type: String,
     required: true,

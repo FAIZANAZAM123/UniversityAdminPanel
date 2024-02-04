@@ -25,6 +25,8 @@ app.use(require('./router/adminauth'));
 
 app.use(require('./router/courseauth'));
 
+app.use(require('./router/homeauth'));
+
 
 
 
